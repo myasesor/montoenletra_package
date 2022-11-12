@@ -9,7 +9,7 @@ DESCRIPTION = 'Muestra en letras cualquier valor positivo Ej valor cheques'
 PACKAGE_NAME = 'montoenletra'
 AUTHOR = 'Roger Jose Retamoza Campo'
 EMAIL = 'myasesor@gmail.com'
-GITHUB_URL = 'https://github.com/myasesor/montoenletras'
+GITHUB_URL = 'https://github.com/myasesor/montoenletra_package'
 
 setup(
     name = PACKAGE_NAME,
