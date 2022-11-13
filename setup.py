@@ -4,7 +4,7 @@ from setuptools import setup
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
-VERSION = '0.0.6'
+VERSION = '0.0.8'
 DESCRIPTION = 'Muestra en letras cualquier valor positivo Ej valor cheques'
 PACKAGE_NAME = 'montoenletra'
 AUTHOR = 'Roger Jose Retamoza Campo'
@@ -16,11 +16,8 @@ setup(
     packages = [PACKAGE_NAME],
     entry_points={
         "console_scripts":
-            ["pycody=montoenletra.__main__:main"]
+            ["pymonto=montoenletra.__main__:main"]
     },
-    version = VERSION,
-    name = PACKAGE_NAME,
-    packages = [PACKAGE_NAME],
     version = VERSION,
     license='MIT',
     description = DESCRIPTION,
@@ -30,8 +27,8 @@ setup(
     author_email = EMAIL,
     url = GITHUB_URL,
     keywords = [
-        'monto en letras',
-        'numero a letras'
+        'monto en letra',
+        'numero a letra'
     ],
     install_requires=[ 
         'match',
